@@ -1,13 +1,12 @@
 <!-- ![](https://img.shields.io/badge/update-today-blue.svg) ![](https://img.shields.io/badge/gitbook-making-lightgrey.svg)</br> -->
-| Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
-| :--------: | :---------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
-| 算法[:pencil2:](#算法-pencil2) | 操作系统[:computer:](#操作系统-computer)|网络[:cloud:](#网络-cloud) | 面向对象[:couple:](#面向对象-couple) |数据库[:floppy_disk:](#数据库-floppy_disk)| Java [:coffee:](#java-coffee)| 分布式[:sweat_drops:](#分布式-sweat_drops)| 工具[:hammer:](#工具-hammer)| 编码实践[:speak_no_evil:](#编码实践-speak_no_evil)| 后记[:memo:](#后记-memo) |
+| Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅵ | Ⅶ | Ⅷ | Ⅸ | Ⅹ |
+| :--------: | :---------: | :---------: | :---------: | :---------:| :---------: | :-------: | :-------:| :------:|
+| 算法[:pencil2:](#算法-pencil2) | 操作系统[:computer:](#操作系统-computer)|网络[:cloud:](#网络-cloud) | 面向对象[:couple:](#面向对象-couple) |数据库[:floppy_disk:](#数据库-floppy_disk)| 分布式[:sweat_drops:](#分布式-sweat_drops)| 工具[:hammer:](#工具-hammer)| 编码实践[:speak_no_evil:](#编码实践-speak_no_evil)| 后记[:memo:](#后记-memo) |
 
 本仓库不参与商业行为，不向读者收取任何费用。(This repository is not engaging in business activities, and does not charge readers any fee.)
 </br>
 
 ## 算法 :pencil2:
-
 
 > [剑指 Offer 题解](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/剑指%20offer%20题解.md)
 
@@ -31,7 +30,6 @@
 
 整理自《鸟哥的 Linux 私房菜》
 
-
 ## 网络 :cloud:
 
 > [计算机网络](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/计算机网络.md)
@@ -41,7 +39,6 @@
 > [HTTP](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/HTTP.md)
 
 整理自《图解 HTTP》
-
 
 ## 面向对象 :couple:
 
@@ -75,32 +72,6 @@ Leetcode 上数据库题目的解题记录。
 
 整理自《Redis 设计与实现》和《Redis 实战》
 
-## Java :coffee:
-
-> [Java 虚拟机](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20虚拟机.md)
-
-整理自《深入理解 Java 虚拟机》
-
-> [Java 并发](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20并发.md)
-
-只整理了一些比较基础的概念，之后会继续添加更多内容。
-
-> [Java 容器](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20容器.md)
-
-容器的一些总结，包含容器源码的分析。
-
-> [Java I/O](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20IO.md)
-
-File, InputStream OutputStream, Reader Writer, Serializable, Socket, NIO
-
-> [Java 基础](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/Java%20基础.md)
-
-整理了一些常见考点。
-
-> [JDK 中的设计模式](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/JDK%20中的设计模式.md)
-
-对每种设计模式做了一个总结，并给出在 JDK 中的使用实例。
-
 ## 分布式 :sweat_drops:
 
 > [分布式基础](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/分布式基础.md)
@@ -114,7 +85,6 @@ File, InputStream OutputStream, Reader Writer, Serializable, Socket, NIO
 > [分布式问题分析](https://github.com/CyC2018/InnterviewNotes/blob/master/notes/分布式问题分析.md)
 
 分布式事务、负载均衡算法与实现、分布式锁、分布式 Session、分库分表的分布式困境与应对之策。
-
 
 ## 工具 :hammer:
 
@@ -144,21 +114,13 @@ Google 开源项目的代码风格规范。
 
 **关于仓库**
 
-本仓库是笔者在准备 2018 年春招实习过程中的学习总结，内容以计算机书籍的学习笔记为主，在整理重点知识的同时会尽量保证知识的系统性。 
+本仓库Fork自[CyC2018/Interview-Notebook](https://github.com/CyC2018/Interview-Notebook)，内容以计算机书籍的学习笔记为主，在整理重点知识的同时会尽量保证知识的系统性，并删去原有的Java相关知识点。 
 
 **关于贡献**
-
-因为大部分内容是笔者一个字一个字打上去的，所以难免会有一些笔误。如果发现，可以直接在相应的文档上编辑修改。
-
-笔者能力有限，很多内容还不够完善。如果您希望和笔者一起完善这个仓库，可以发表一个 Issue，表明您想要添加的内容，笔者会及时查看。
-
-因为不打算将这个仓库做成一个大而全的面试宝典，只希望添加一些比较通用的基础知识，或者是与 Java 和分布式相关的内容，但是不添加 Java Web 相关的内容。
 
 您也可以在 Issues 中发表关于改进本仓库的建议。
 
 **关于上传**
-
-笔者在本地使用为知笔记软件进行书写，为了方便将本地笔记内容上传到 Github 上，实现了一整套自动化上传方案，包括文本文件的导出、提取图片、Markdown 文档转换、Git 同步。
 
 进行 Markdown 文档转换是因为 Github 使用的 GFM 不支持 MathJax 公式和 TOC 标记，所以需要替换 MathJax 公式为 CodeCogs 的云服务和重新生成 TOC 目录。这里提供了笔者实现的 GFM 文档转换工具的下载：[GFM-Converter](https://github.com/CyC2018/GFM-Converter)。
 
@@ -175,5 +137,4 @@ Google 开源项目的代码风格规范。
 **鸣谢**
 
 [TeeKee](https://github.com/linw7)
-
-
+[CyC2018](https://github.com/CyC2018)
